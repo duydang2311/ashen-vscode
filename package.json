@@ -1,0 +1,22 @@
+{
+  "name": "ashen-vscode",
+  "displayName": "ashen-vscode",
+  "description": "",
+  "version": "0.0.2",
+  "author": "duydang2311",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ashen Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ashen Dark-color-theme.json"
+      }
+    ]
+  }
+}
