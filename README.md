@@ -1,5 +1,7 @@
 # ashen-vscode
 
+The [Ashen Theme](https://codeberg.org/ficd/ashen) color scheme ported to Visual Studio Code.
+
 ## Preview
 
 Tested on C# and TypeScript.
