@@ -227,6 +227,7 @@
         "punctuation.definition.binding-pattern",
         "punctuation.definition.parameters",
         "punctuation.definition.block",
+        "punctuation.definition.dictionary",
         "meta.brace"
       ],
       "settings": {
@@ -236,7 +237,7 @@
 
     // g_1
     {
-      "scope": ["entity.name.variable.parameter"],
+      "scope": ["entity.name.variable.parameter", "support.type", "punctuation.separator.dictionary.key-value"],
       "settings": {
         "foreground": "#d5d5d5"
       }
