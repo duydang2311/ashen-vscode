@@ -217,6 +217,7 @@
         "punctuation.definition.parameters",
         "punctuation.definition.block",
         "punctuation.definition.dictionary",
+        "punctuation.definition.array",
         "meta.brace",
         "comment",
         "punctuation.definition.comment"
