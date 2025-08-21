@@ -10,6 +10,7 @@
   "categories": [
     "Themes"
   ],
+  "repository": "git@github.com:duydang2311/ashen-vscode",
   "contributes": {
     "themes": [
       {
