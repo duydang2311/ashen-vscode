@@ -96,7 +96,7 @@
     "textLink.activeForeground": "#d75050"
   },
   "tokenColors": [
-    /* orange blaze */
+    // orange blaze
     {
       "scope": ["constant"],
       "settings": {
@@ -113,13 +113,13 @@
 
     // red glowing
     {
-      "scope": ["constant.character", "punctuation.definition.string"],
+      "scope": ["constant.character", "punctuation.definition.string", "string"],
       "settings": {
         "foreground": "#DF6464"
       }
     },
 
-    /* red ember */
+    // red ember
     {
       "scope": [
         "keyword",
@@ -147,6 +147,7 @@
       }
     },
 
+    // brown
     {
       "scope": ["meta.type"],
       "settings": {
@@ -154,26 +155,7 @@
       }
     },
 
-    {
-      "scope": ["string"],
-      "settings": {
-        "foreground": "#DF6464"
-      }
-    },
-    {
-      "scope": ["string.regexp"],
-      "settings": {
-        "foreground": "#D87C4A"
-      }
-    },
-
-    {
-      "scope": ["comment"],
-      "settings": {
-        "foreground": "#737373",
-        "fontStyle": "italic"
-      }
-    },
+    // g_5
     {
       "scope": ["comment.block.documentation"],
       "settings": {
@@ -198,7 +180,8 @@
     {
       "scope": [
         "punctuation.definition",
-        "storage.type.function"
+        "storage.type.function",
+        "string.regexp"
       ],
       "settings": {
         "foreground": "#D87C4A"
@@ -234,7 +217,9 @@
         "punctuation.definition.parameters",
         "punctuation.definition.block",
         "punctuation.definition.dictionary",
-        "meta.brace"
+        "meta.brace",
+        "comment",
+        "punctuation.definition.comment"
       ],
       "settings": {
         "foreground": "#737373"
