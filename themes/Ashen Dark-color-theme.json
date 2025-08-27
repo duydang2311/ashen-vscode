@@ -2,6 +2,11 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Ashen Dark",
   "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "variable.defaultLibrary": "#4A8B8B",
+    "parameter.declaration": "#d5d5d5"
+  },
   "colors": {
     "editor.background": "#121212",
     "editor.foreground": "#b4b4b4",
@@ -98,7 +103,12 @@
   "tokenColors": [
     // orange blaze
     {
-      "scope": ["constant"],
+      "scope": [
+        "constant",
+        "keyword.control.as",
+        "keyword.operator.expression",
+        "entity.name.type.module"
+      ],
       "settings": {
         "foreground": "#C4693D"
       }
@@ -113,7 +123,11 @@
 
     // red glowing
     {
-      "scope": ["constant.character", "punctuation.definition.string", "string"],
+      "scope": [
+        "constant.character",
+        "punctuation.definition.string",
+        "string"
+      ],
       "settings": {
         "foreground": "#DF6464"
       }
@@ -122,11 +136,21 @@
     // red ember
     {
       "scope": [
-        "keyword",
+        "keyword.control.import",
+        "keyword.operator.new",
+        "keyword.control.from",
+        "keyword.control.export",
+        "keyword.control.flow",
+        "keyword.control.conditional",
+        "keyword.control.trycatch",
+        "keyword.control.loop",
         "storage.modifier",
         "keyword.other.directive",
         "storage.type",
-        "variable.language"
+        "variable.language",
+        "storage.type.function",
+        "meta.special",
+        "keyword.other.svelte"
       ],
       "settings": {
         "foreground": "#B14242"
@@ -140,7 +164,9 @@
         "storage.type.numeric",
         "entity.name.type",
         "keyword.type",
-        "constant.language"
+        "constant.language",
+        "support.type.builtin",
+        "support.type.primitive"
       ],
       "settings": {
         "foreground": "#4A8B8B"
@@ -169,22 +195,35 @@
       "scope": [
         "variable",
         "entity.name.function",
-        "entity.name.type.namespace"
+        "entity.name.type.namespace",
+        "support.type",
+        "punctuation.definition.variable",
+        "meta",
+        "entity.name.type.svelte",
+        "keyword.other.animation.svelte",
+        "entity.other.attribute-name.svelte"
       ],
       "settings": {
         "foreground": "#b4b4b4"
       }
     },
 
-    // orange golden
+    // orange glow
     {
       "scope": [
         "punctuation.definition",
-        "storage.type.function",
-        "string.regexp"
+        "string.regexp",
+        "entity.name.tag",
+        "keyword.operator.assignment",
+        "keyword.operator.arithmetic",
+        "meta.tag.start",
+        "meta.tag.end",
+        "keyword.operator.comparison",
+        "keyword.operator.relational",
+        "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#D87C4A"
+        "foreground": "#d87c4a"
       }
     },
 
@@ -193,7 +232,8 @@
       "scope": [
         "punctuation.terminator",
         "punctuation.accessor",
-        "punctuation.separator"
+        "punctuation.separator",
+        "keyword.operator.type"
       ],
       "settings": {
         "foreground": "#E49A44"
@@ -227,9 +267,18 @@
       }
     },
 
-    // g_1
+    // g_2
     {
-      "scope": ["entity.name.variable.parameter", "support.type", "punctuation.separator.dictionary.key-value"],
+      "scope": [
+        "entity.name.variable.parameter",
+        "punctuation.separator.dictionary.key-value",
+        "punctuation.definition.tag",
+        "punctuation.definition.keyword",
+        "variable.language.svelte",
+        "punctuation.section.embedded.begin.svelte",
+        "punctuation.section.embedded.end.svelte",
+        "variable.other.property.ts",
+      ],
       "settings": {
         "foreground": "#d5d5d5"
       }
