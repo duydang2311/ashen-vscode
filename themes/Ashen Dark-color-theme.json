@@ -144,6 +144,7 @@
         "keyword.control.conditional",
         "keyword.control.trycatch",
         "keyword.control.loop",
+        "keyword.control.switch",
         "storage.modifier",
         "keyword.other.directive",
         "storage.type",
