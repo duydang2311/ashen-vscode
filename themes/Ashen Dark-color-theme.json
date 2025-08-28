@@ -14,7 +14,7 @@
     "editorLineNumber.activeForeground": "#737373",
     "editor.selectionBackground": "#322119",
     "editor.lineHighlightBackground": "#191919",
-    "editorIndentGuide.background1": "#535353",
+    "editorIndentGuide.background1": "#212121",
     "editorIndentGuide.activeBackground1": "#737373",
     "editorWhitespace.foreground": "#535353",
     "editorCursor.background": "#121212",
@@ -238,7 +238,8 @@
         "punctuation.semi.rust",
         "punctuation.comma.rust",
         "entity.name.namespace.rust",
-        "keyword.operator.arrow.fat.rust"
+        "keyword.operator.arrow.fat.rust",
+        "meta.import.rust"
       ],
       "settings": {
         "foreground": "#d87c4a"
