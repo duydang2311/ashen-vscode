@@ -2,7 +2,7 @@
   "name": "ashen-vscode",
   "displayName": "ashen-vscode",
   "description": "",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "duydang2311",
   "engines": {
     "vscode": "^1.103.0"
