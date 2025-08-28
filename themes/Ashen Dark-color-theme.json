@@ -151,7 +151,17 @@
         "variable.language",
         "storage.type.function",
         "meta.special",
-        "keyword.other.svelte"
+        "keyword.other.svelte",
+        "meta.attribute.rust",
+        "keyword.other.rust",
+        "keyword.other.crate.rust",
+        "keyword.other.fn.rust",
+        "entity.name.type.lifetime.rust",
+        "punctuation.definition.lifetime.rust",
+        "keyword.operator.borrow.and.rust",
+        "keyword.control.rust",
+        "entity.name.function.macro.rust",
+        "entity.name.function.macro.rules.rust",
       ],
       "settings": {
         "foreground": "#B14242"
@@ -221,7 +231,14 @@
         "meta.tag.end",
         "keyword.operator.comparison",
         "keyword.operator.relational",
-        "storage.type.function.arrow"
+        "storage.type.function.arrow",
+        "entity.name.module.rust",
+        "keyword.operator.arrow.skinny.rust",
+        "keyword.operator.key-value.rust",
+        "punctuation.semi.rust",
+        "punctuation.comma.rust",
+        "entity.name.namespace.rust",
+        "keyword.operator.arrow.fat.rust"
       ],
       "settings": {
         "foreground": "#d87c4a"
@@ -234,7 +251,9 @@
         "punctuation.terminator",
         "punctuation.accessor",
         "punctuation.separator",
-        "keyword.operator.type"
+        "keyword.operator.type",
+        "keyword.operator.namespace.rust",
+        "keyword.operator.access.dot.rust"
       ],
       "settings": {
         "foreground": "#E49A44"
@@ -243,7 +262,8 @@
 
     // orange golden
     {
-      "scope": ["punctuation.definition.template-expression"],
+      "scope": ["punctuation.definition.template-expression",
+    "punctuation.definition.interpolation.rust"],
       "settings": {
         "foreground": "#E5A72A"
       }
@@ -261,7 +281,12 @@
         "punctuation.definition.array",
         "meta.brace",
         "comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "punctuation.definition.attribute.rust",
+        "punctuation.brackets.attribute.rust",
+        "punctuation.brackets.round.rust",
+        "punctuation.brackets.curly.rust",
+        "punctuation.brackets.angle.rust"
       ],
       "settings": {
         "foreground": "#737373"
